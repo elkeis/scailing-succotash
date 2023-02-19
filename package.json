@@ -4,7 +4,9 @@
   "description": "client and server for group watching experience",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test:affected": "nx affected --target=test --base=trunk",
+    "test": "nx run machine:test",
+    "dev": "nx run-many --target=dev --projects=machine,face"
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,8 @@
     "machine",
     "face"
   ],
-  "homepage": "https://github.com/elkeis/scailing-succotash#readme"
+  "homepage": "https://github.com/elkeis/scailing-succotash#readme",
+  "devDependencies": {
+    "nx": "15.7.2"
+  }
 }
