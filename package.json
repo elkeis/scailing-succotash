@@ -1,0 +1,33 @@
+{
+  "name": "scailing-succotash",
+  "version": "1.0.0",
+  "description": "client and server for group watching experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkeis/scailing-succotash.git"
+  },
+  "keywords": [
+    "vanilla",
+    "fastify",
+    "react",
+    "js",
+    "npm",
+    "node.js",
+    "server",
+    "client"
+  ],
+  "author": "Kiryll Ye",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/elkeis/scailing-succotash/issues"
+  },
+  "workspaces": [
+    "machine",
+    "face"
+  ],
+  "homepage": "https://github.com/elkeis/scailing-succotash#readme"
+}

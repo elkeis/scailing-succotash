@@ -1,2 +1,2 @@
 # scailing-succotash
-This is client and server for Youtube group watching experience
+This is client and server for group watching experience
