@@ -6,7 +6,10 @@
   "scripts": {
     "test:affected": "nx affected --target=test --base=trunk",
     "test": "nx run machine:test",
-    "dev": "nx run-many --target=dev --projects=machine,face"
+    "dev:face": "nx run face:dev",
+    "dev:machine": "nx run machine:dev -- -- --serve=../serve",
+    "dev": "nx run-many --target=dev --all",
+    "build": "nx run face:build -- --outDir=../serve --emptyOutDir"
   },
   "repository": {
     "type": "git",

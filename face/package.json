@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.1.0"
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "mkcert-cli": "^1.5.0",
+    "vite": "^4.1.0",
+    "vite-plugin-mkcert": "^1.13.1"
   }
 }

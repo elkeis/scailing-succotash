@@ -1,0 +1,14 @@
+{
+  "record": {
+    "hosts": [
+      "localhost",
+      "127.0.0.1",
+      "192.168.1.51"
+    ],
+    "hash": {
+      "key": "122a42fbd5614a3bd6dd706a9077c262560a8cf0a0ab5814d1096ad94a0965aa",
+      "cert": "c0d7f3ea42b0d619379923412688b6a82fcc7ec8171bf8d312c86dff003c90cc"
+    }
+  },
+  "configFilePath": "/Users/elkeis/work/startups/scailing-succotash/face/.cert/config.json"
+}
