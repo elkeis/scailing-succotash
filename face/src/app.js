@@ -1,4 +1,4 @@
-import { css, html } from "lit"
+import { html } from "lit"
 import javascriptLogo from '../javascript.svg'
 import { chat } from "./components/chat/chat";
 import './app.css';
