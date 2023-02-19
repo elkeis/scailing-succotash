@@ -37,5 +37,8 @@
   "homepage": "https://github.com/elkeis/scailing-succotash#readme",
   "devDependencies": {
     "nx": "15.7.2"
+  },
+  "dependencies": {
+    "tap": "^16.3.4"
   }
 }
